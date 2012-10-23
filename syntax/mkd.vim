@@ -108,6 +108,7 @@ setlocal nocursorline
 setlocal spell
 setlocal nolist
 setlocal foldcolumn=2
+hi FoldColumn ctermbg=none
 
 noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
