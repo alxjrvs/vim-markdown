@@ -104,6 +104,8 @@ syn region mkdListFold
 syn sync fromstart
 "setlocal foldmethod=syntax
 setlocal nonumber
+setlocal nocursorline
+setlocal spell
 
 noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
