@@ -107,7 +107,7 @@ setlocal nonumber
 setlocal nocursorline
 setlocal spell
 setlocal nolist
-setlocal foldcolumn=2
+setlocal foldcolumn=5
 hi FoldColumn ctermbg=none
 
 noremap  <buffer> <silent> k gk
