@@ -106,6 +106,8 @@ syn sync fromstart
 setlocal nonumber
 setlocal nocursorline
 setlocal spell
+setlocal nolist
+setlocal foldcolumn=2
 
 noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
