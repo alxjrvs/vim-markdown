@@ -102,9 +102,13 @@ syn region mkdListFold
     \ fold contains=TOP
 
 syn sync fromstart
-setlocal foldmethod=syntax
+"setlocal foldmethod=syntax
+setlocal nonumber
 
-
+noremap  <buffer> <silent> k gk
+noremap  <buffer> <silent> j gj
+noremap  <buffer> <silent> 0 g0
+noremap  <buffer> <silent> $ g$
 
 "highlighting for Markdown groups
 HtmlHiLink mkdString	    String
